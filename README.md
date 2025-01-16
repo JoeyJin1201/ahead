@@ -26,13 +26,13 @@ cd <project-directory>
 1. Build the Docker image:
 
    ```bash
-   docker build -t my-app .
+   docker build -t ahead .
    ```
 
 2. Run the Docker container:
 
    ```bash
-   docker run -p 3000:3000 my-app
+   docker run -p 3000:3000 ahead
    ```
 
 3. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
